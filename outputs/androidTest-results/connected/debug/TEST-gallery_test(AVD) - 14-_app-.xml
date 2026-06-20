@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="8" failures="0" errors="0" skipped="0" time="16.949" timestamp="2026-06-20T12:24:55" hostname="localhost">
+  <testsuite name="com.example.myapplication.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.03" timestamp="2026-06-20T12:24:55" hostname="localhost">
+    <properties>
+      <property name="device" value="gallery_test(AVD) - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="useAppContext" classname="com.example.myapplication.ExampleInstrumentedTest" time="0.03" />
+  </testsuite>
+  <testsuite name="com.example.myapplication.ui.GalleryScreensTest" tests="7" failures="0" errors="0" skipped="0" time="14.976" timestamp="2026-06-20T12:24:55" hostname="localhost">
+    <properties>
+      <property name="device" value="gallery_test(AVD) - 14" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="trashScreen_showsDaysLeftCaption" classname="com.example.myapplication.ui.GalleryScreensTest" time="3.151" />
+    <testcase name="timelineScreen_groupsTodaysItemsUnderTodayHeader" classname="com.example.myapplication.ui.GalleryScreensTest" time="2.004" />
+    <testcase name="albumsScreen_showsAlbumNameAndFilters" classname="com.example.myapplication.ui.GalleryScreensTest" time="2.476" />
+    <testcase name="photoGrid_longPressEntersSelectionMode" classname="com.example.myapplication.ui.GalleryScreensTest" time="1.732" />
+    <testcase name="settingsScreen_selectingDarkInvokesCallback" classname="com.example.myapplication.ui.GalleryScreensTest" time="1.873" />
+    <testcase name="albumsScreen_emptyState" classname="com.example.myapplication.ui.GalleryScreensTest" time="1.912" />
+    <testcase name="trashScreen_emptyState" classname="com.example.myapplication.ui.GalleryScreensTest" time="1.828" />
+  </testsuite>
+</testsuites>
