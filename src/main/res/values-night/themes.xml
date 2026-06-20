@@ -1,0 +1,4 @@
+<resources>
+    <!-- Compose-only app: a plain NoActionBar theme; all theming is done in Compose. -->
+    <style name="Theme.MyApplication" parent="android:Theme.Material.NoActionBar" />
+</resources>
